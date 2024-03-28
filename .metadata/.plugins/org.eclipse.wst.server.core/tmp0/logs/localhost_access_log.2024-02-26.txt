@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Feb/2024:21:11:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:11:28 +0530] "GET /javascrippakage/javaex.html HTTP/1.1" 200 239
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:11:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [26/Feb/2024:21:17:39 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:17:40 +0530] "GET /javascrippakage/WEB-INF/classes/myscript.js HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:17:40 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:17:49 +0530] "GET /javascrippakage/WEB-INF/classes/myscript.js HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:21:17:51 +0530] "GET /javascrippakage/WEB-INF/classes/myscript.js HTTP/1.1" 404 682

@@ -1,0 +1,12 @@
+127.0.0.1 - - [28/Feb/2024:19:37:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:19:37:15 +0530] "GET /javascrippakage/fahreheit.html HTTP/1.1" 200 454
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:19:37:15 +0530] "GET /javascrippakage/fahrenheit.js HTTP/1.1" 404 784
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:19:37:16 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:29:45 +0530] "GET /javascrippakage/string.html HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:29:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:32:00 +0530] "GET /javascrippakage/string.html HTTP/1.1" 200 319
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:32:00 +0530] "GET /javascrippakage/reverse.js HTTP/1.1" 200 266
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:32:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:33:18 +0530] "GET /javascrippakage/string.html HTTP/1.1" 200 368
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:33:18 +0530] "GET /javascrippakage/reverse.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:20:33:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762

@@ -1,0 +1,6 @@
+127.0.0.1 - - [08/Mar/2024:07:31:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Mar/2024:07:31:48 +0530] "GET /ProductDBCApp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [08/Mar/2024:07:31:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Mar/2024:07:32:14 +0530] "GET /ProductDBCApp/add_product.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Mar/2024:07:32:14 +0530] "GET /ProductDBCApp/formValidation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Mar/2024:07:32:18 +0530] "GET /ProductDBCApp/productList.jsp HTTP/1.1" 500 3164

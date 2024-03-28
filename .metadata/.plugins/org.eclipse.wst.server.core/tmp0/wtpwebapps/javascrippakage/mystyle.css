@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+h1{
+	color:purple;
+	text-align: conter;
+	text-decoration:underline;
+	font-family: georgia, times new raman';
+	font-style italic;
+}
+.mydesign{
+	color:green;
+	text-align: center;
+	text-decoration: line-through;
+	font-size: 30px;
+	font-family: calibri;
+	font-style:italic;
+}
+#yourdesign{
+	color:red;
+	text-align: center;
+	text-decoration: line-through;
+	font-size:30px;
+	font-family: calibri;
+	font-style:italic;
+}

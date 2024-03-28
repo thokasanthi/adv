@@ -1,0 +1,12 @@
+127.0.0.1 - - [18/Feb/2024:11:27:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:11:27:11 +0530] "GET /Registrationform/ HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:11:27:12 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:11:27:19 +0530] "GET /Registrationform/Register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:11:28:58 +0530] "GET /Registrationform/Registerservlet?Username=santhi&Password=santhi2345&UserMobile=7330626895&Email=santhi%40gmail.com&Gender=on&DoB=2001-10-30&Qualification=on&country=India&language=English&Comment=rathan+sir+wowwwwww%0D%0Arathan+sir+class+wowwwwwww HTTP/1.1" 200 333
+127.0.0.1 - - [18/Feb/2024:12:00:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:12:00:07 +0530] "GET /Registertiondetails/regiFile.html HTTP/1.1" 200 2486
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:12:00:07 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:12:06:18 +0530] "GET /Registertiondetails/regiFile.html HTTP/1.1" 200 2671
+127.0.0.1 - - [18/Feb/2024:12:17:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:12:17:36 +0530] "GET /Registertiondetails/regiFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [18/Feb/2024:12:21:38 +0530] "GET / HTTP/1.1" 404 751

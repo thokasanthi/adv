@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form....</title>
+</head>
+<body bgcolor="pink">
+<h1>Registration form</h1>
+<form method="get" action="./Registerservlet">
+<label>Username:</label>
+<input type="text" name="Username" 
+placeholder="enter username" required/>
+<br><br>
+<label>Password:</label>
+<input type="password" name="Password" 
+placeholder="enter password" required/>
+<br><br>
+<label>UserMobile:</label>
+<input type="number" name="UserMobile" 
+placeholder="enter usermobile" required/>
+<br><br>
+<label>Email:</label>
+<input type="email" name="Email" 
+placeholder="enter email" required/>
+<br><br>
+<label>Gender:</label>
+<input type="radio" name="Gender" value="male" />male
+<input type="radio" name="Gender" value="female"/>female
+<br><br>
+<label>Select DOB:</label>
+<input type="date"name="DoB" required/>
+<br><br>
+<label>Qualification</label>
+<input type="checkbox" name="Qualifivation" value="BSC"/>BSC
+<input type="checkbox" name="Qualification" value="MCA"/>MCA
+<input type="checkbox" name="Qualification" value="MTECH"/>MTECH
+<br><br>
+<label>Country:</label>
+<select name="country">
+<option>India</option>
+<option>China</option>
+<option>USA</option>
+<option>Africa</option>
+</select>
+<br><br>
+<lable>Select Language:</lable>>
+<select name="language" size='3' multiple>
+<option>Telugu</option>
+<option>English</option>
+<option>kannda</option>
+<option>tamil</option>
+</select>
+<br><br>
+<lable>Comment about Rathan sir:</lable>
+<textarea name="Comment"rows="5" cols="25">
+</textarea>
+<br><br>
+<input type="submit" value="Register"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+127.0.0.1 - - [27/Feb/2024:19:15:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:15:18 +0530] "GET /javascrippakage/form.html HTTP/1.1" 200 110
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:15:18 +0530] "GET /javascrippakage/anonymous.js HTTP/1.1" 200 126
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:15:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:48:58 +0530] "GET /javascrippakage/fahren.html HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:48:58 +0530] "GET /javascrippakage/simplefun.js HTTP/1.1" 200 528
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:48:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:49:24 +0530] "GET /javascrippakage/fahren.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:49:24 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:50:21 +0530] "GET /javascrippakage/fahren.html HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [27/Feb/2024:19:50:21 +0530] "GET /favicon.ico HTTP/1.1" 404 762

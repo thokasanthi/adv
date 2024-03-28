@@ -1,0 +1,19 @@
+package jdbcfirstapp;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.*;
+public class JdbcEx1 {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		//step-1 Load the driver
+		 Class.forName("oracle.jdbc.driver.OracleDriver");
+		System.out.println("Driver Loaded Successfully... ");
+		//step-2 create the connection
+		Connection Connection=DriverManager.getConnection
+				("jdbc:oracle:thin:@localhost:1521:xe","santhi","santhi");
+
+	}
+
+}

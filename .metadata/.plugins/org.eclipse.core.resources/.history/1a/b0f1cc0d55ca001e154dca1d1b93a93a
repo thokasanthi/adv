@@ -1,0 +1,62 @@
+package com.sathya.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+ 
+ 
+@WebServlet("/Registerservlet")
+public class Registerservlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	//step1-get the request data
+	   String Username=(request.getParameter("Username"));
+	   String Password=(request.getParameter("Password"));
+	   Long Mobile=Long.parseLong(request.getParameter("Mobile"));
+	   String Email=(request.getParameter("Email"));
+	   String Gender=(request.getParameter("Gender"));
+	   String DoB=(request.getParameter("DoB"));
+	   String[]Qualification=(request.getParameterValues("Qualification"));
+	   String[]language=(request.getParameterValues("language"));
+	   String Country=(request.getParameter("Country"));
+	   String Comment=(request.getParameter("Comment"));
+	   //process the data
+	   String q=String.join(",",Qualification);
+	   String l=String.join("_","language");
+	   //render the resonse to clint
+	   PrintWriter writer=(response.getWriter());
+	   response.setContentType("text/html");
+	   writer.println("<html>");
+	   writer.println("<body>");
+	   writer.println("yourUsername"+Username+"<br><br>");
+	   writer.println("yourPassword"+Password+"<br><br>");
+	   writer.println("yourMobile"+Mobile+"<br><br>");
+	   writer.println("yourEmail"+Email+"<br><br>");
+	   writer.println("yourGender"+Gender+"<br><br>");
+	   writer.println("yourCountry"+Country+"<br><br>");
+	   writer.println("yourquals"+q+"<br><br>");
+	   writer.println("yourlanguage"+l+"<br><br>");
+	   writer.println("</html>");
+	   writer.println("</body>");
+   }
+}
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+		
+	
+
+
